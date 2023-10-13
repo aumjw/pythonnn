@@ -37,8 +37,6 @@ def clicked_button():
         y_label.config(text="y = " + str(y))
     output_label.configure(text=output)
         
-        
-
 label = tk.Label(window, text="Enter your Guess number ?")
 Guess = tk.Entry(window)
 button = tk.Button(window,text="Clicked me !" ,command= clicked_button)
@@ -46,15 +44,12 @@ output_label = tk.Label(master=window)
 x_label = tk.Label(window)
 y_label = tk.Label(window)
 
-
 label.pack()
 Guess.pack()
 button.pack()
 output_label.pack()
 x_label.pack()
 y_label.pack()
-
-
 
 window.mainloop()
 
